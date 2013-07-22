@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>stibear Daemon</title>
+        <description>stibear Daemon - stibear</description>
+        <link>http://stibear.github.io</link>
+        <link>http://stibear.github.io</link>
+        <lastBuildDate>2013-07-23T04:22:55+09:00</lastBuildDate>
+        <pubDate>2013-07-23T04:22:55+09:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>ブログはじめました</title>
+                <description>&lt;h2&gt;Github Pagesでブログ&lt;/h2&gt;
+
+&lt;p&gt;Github Pages、流行ってるみたいなので、便乗してみました。&lt;/p&gt;
+
+&lt;p&gt;Jekyll + JekyllBootstrapを使ってますが、
+結構、いいですねｗ&lt;/p&gt;
+
+&lt;p&gt;記事もMarkdownで書けますし、いいgitの練習になりそうです。
+あとは、org-modeとmagitさえマスターできれば、Emacsから出なくてよくなりそうですｗ&lt;/p&gt;
+</description>
+                <link>http://stibear.github.io/2013/07/23/%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F</link>
+                <guid>http://stibear.github.io/2013/07/23/ブログはじめました</guid>
+                <pubDate>2013-07-23T00:00:00+09:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

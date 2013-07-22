@@ -4,7 +4,7 @@
  <title>stibear Daemon</title>
  <link href="http://stibear.github.io/" rel="self"/>
  <link href="http://stibear.github.io"/>
- <updated>2013-07-23T04:22:55+09:00</updated>
+ <updated>2013-07-23T04:36:34+09:00</updated>
  <id>http://stibear.github.io</id>
  <author>
    <name>stibear</name>
@@ -23,6 +23,9 @@
 
 &lt;p&gt;Jekyll + JekyllBootstrapを使ってますが、
 結構、いいですねｗ&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
 
 &lt;p&gt;記事もMarkdownで書けますし、いいgitの練習になりそうです。
 あとは、org-modeとmagitさえマスターできれば、Emacsから出なくてよくなりそうですｗ&lt;/p&gt;

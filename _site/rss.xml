@@ -5,10 +5,63 @@
         <description>stibear Daemon - stibear</description>
         <link>http://stibear.github.io</link>
         <link>http://stibear.github.io</link>
-        <lastBuildDate>2013-07-23T04:46:24+09:00</lastBuildDate>
-        <pubDate>2013-07-23T04:46:24+09:00</pubDate>
+        <lastBuildDate>2013-07-28T03:25:34+09:00</lastBuildDate>
+        <pubDate>2013-07-28T03:25:34+09:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>CLでGUI</title>
+                <description>&lt;h2&gt;Common LispでGUI&lt;/h2&gt;
+
+&lt;p&gt;今、GUIアプリケーション作らんとしているのですが、果たしてどのライブラリを使おうかという…&lt;/p&gt;
+
+&lt;p&gt;まあ使ってみるのが一番なんでしょうけど…&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+
+&lt;p&gt;とりあえず候補としては、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;cl-gtk2&lt;/li&gt;
+&lt;li&gt;lispbuilder-sdl&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;ですが…&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;(何を作るのか、まだいうつもりはないのですが、ゲームではないです。)&lt;/small&gt;&lt;/p&gt;
+
+&lt;h2&gt;AOJ&lt;/h2&gt;
+
+&lt;p&gt;ところで、
+AOJの問題、周りでも解いている人多いので、私も(提出はできませんが、)
+CLで解いているのですが、思わぬところで躓いてしまってます…&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(defun primep (n)
+  (cond
+    ((= 2 n) t)
+    ((= 3 n) t)
+    ((evenp n) nil)
+    (t (loop for i from 3 to (isqrt n) by 2
+             never (zerop (mod n i))))))
+
+(defun furui (list)
+  (delete-if-not #&#39;primep list))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これで&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(furui (loop for i from 2 to 1000000 collect i))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;すると、1秒かかってしまって、TLEと…&lt;/p&gt;
+</description>
+                <link>http://stibear.github.io/2013/07/28/cl%E3%81%A7gui</link>
+                <guid>http://stibear.github.io/2013/07/28/clでgui</guid>
+                <pubDate>2013-07-28T00:00:00+09:00</pubDate>
+        </item>
 
         <item>
                 <title>ブログはじめました</title>
